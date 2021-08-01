@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/rocket"
+    android:background="@drawable/rocket_land"
     tools:context=".MainActivity">
 
 
@@ -76,7 +76,7 @@
         android:id="@+id/button_seven"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="20dp"
         android:text="@string/seven"
         android:textSize="@dimen/button_text_size"
         app:layout_constraintEnd_toStartOf="@+id/guideline8"
@@ -88,7 +88,7 @@
         android:id="@+id/button_eight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="20dp"
         android:text="@string/eight"
         android:textSize="@dimen/button_text_size"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -100,7 +100,7 @@
         android:id="@+id/button_nine"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="20dp"
         android:text="@string/nine"
         android:textSize="@dimen/button_text_size"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
@@ -123,7 +123,7 @@
         android:id="@+id/button_plus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="20dp"
         android:text="@string/plus"
         android:textSize="@dimen/button_text_size"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
@@ -199,29 +199,31 @@
         android:id="@+id/text_view"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="10dp"
         android:gravity="center"
         android:hint="@string/zero"
         android:textColor="@color/teal_700"
         android:textSize="100sp"
         app:layout_constraintBottom_toTopOf="@+id/button_nine"
         app:layout_constraintEnd_toStartOf="@+id/guideline10"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="@+id/guideline10"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.12" />
+        app:layout_constraintGuide_percent="0.10" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.37" />
+        app:layout_constraintGuide_percent="0.25" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline10"
@@ -235,14 +237,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.62" />
+        app:layout_constraintGuide_percent="0.75" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.87" />
+        app:layout_constraintGuide_percent="0.90" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
