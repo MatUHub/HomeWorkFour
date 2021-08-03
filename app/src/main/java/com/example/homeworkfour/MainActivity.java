@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
         displayText = savedInstanceState.getParcelable(TAG);
+        textView.setText(displayText.getText());
     }
 
     private void initListener() {
