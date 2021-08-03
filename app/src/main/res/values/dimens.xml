@@ -7,7 +7,7 @@
     <dimen name="width_button_equals">300dp</dimen>
     <dimen name="height_button_equals">66dp</dimen>
     <dimen name="margin_top_button_plus">400dp</dimen>
-    <dimen name="margin_top_button">400dp</dimen>
-    <dimen name="margin_top_button_layout_land">20dp</dimen>
+    <dimen name="margin_top_button">350dp</dimen>
+    <dimen name="margin_top_button_layout_land">0dp</dimen>
     <dimen name="margin_top_button_zero_layout_land">10dp</dimen>
 </resources>
